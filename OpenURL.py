@@ -34,7 +34,7 @@ fifth = ['','','','','']
 # 基礎機械学 https://us02web.zoom.us/j/83854424097?pwd=476334 or ?OTA4S0hoQ2ZXZEhPYU9DRGR4eTZPQT09
 # 確率統計学　https://classroom.google.com/c/Mzg4NzE2NzEzOTQ3?cjc=lxvrhj3
 # ディジタル電子回路 https://stream.meet.google.com/stream/1891a9ff-69e4-4abb-afb2-4cf0ccc20a56
-# 美術史 https://drive.google.com/file/d/1d87obK-rNvet1Dvx5UGtDrUc4NBdoSqr/view?usp=sharing
+# 美術史 https://drive.google.com/file/d/1d87obK-rNvet1Dvx5UGtDrUc4NBdoSqr/view?usp=sharing”
 
 dow = now.strftime('%A')
 now_time = now.hour*100 + now.minute
