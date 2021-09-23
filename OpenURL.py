@@ -32,7 +32,7 @@ def Error():
     print("You don't have Class-Shedule!")
 
 # json読み込み
-url = open('./ClassSchedule.json','r') 
+url = open('./ClassSchedule.json','r',encoding="utf-8") 
 data = json.load(url)
 # 今が何時間目なのか取得
 n = WhatNowClass(now_time)  
