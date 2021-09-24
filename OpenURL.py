@@ -38,8 +38,8 @@ data = json.load(url)
 n = WhatNowClass(now_time)  
 
 # テスト
-# n = 1
-# dow = "Monday"
+# n = 3
+# dow = "Friday"
 
 if (n == 0):
     Error()
