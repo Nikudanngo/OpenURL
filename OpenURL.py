@@ -41,7 +41,7 @@ n = WhatNowClass(now_time)
 # n = 1
 # dow = "Monday"
 
-if (n == 0):
+if (n == 0) or (dow not in data):
     Error()
 else:
     webbrowser.open(data[str(dow)][str(n)]["url"])
