@@ -41,6 +41,7 @@ n = WhatNowClass(now_time)
 # n = 1
 # dow = "Monday"
 
+# 今が何時間目か，今日の曜日がjsonにあるか判定
 if (n == 0) or (dow not in data):
     Error()
 else:
