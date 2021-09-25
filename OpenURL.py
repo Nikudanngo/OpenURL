@@ -1,4 +1,5 @@
 import json
+from tkinter.constants import NONE
 import webbrowser
 import datetime
 from tkinter import messagebox
@@ -41,7 +42,7 @@ n = WhatNowClass(now_time)
 # n = 3
 # dow = "Friday"
 
-if (n == 0):
+if (n == 0) or (dow not in data):
     Error()
 else:
     webbrowser.open(data[str(dow)][str(n)]["url"])
