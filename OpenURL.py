@@ -1,4 +1,5 @@
 import json
+from tkinter.constants import NONE
 import webbrowser
 import datetime
 from tkinter import messagebox
@@ -38,10 +39,9 @@ data = json.load(url)
 n = WhatNowClass(now_time)  
 
 # テスト
-# n = 1
-# dow = "Monday"
+# n = 3
+# dow = "Friday"
 
-# 今が何時間目か，今日の曜日がjsonにあるか判定
 if (n == 0) or (dow not in data):
     Error()
 else:
