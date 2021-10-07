@@ -3,6 +3,7 @@ from tkinter.constants import NONE
 import webbrowser
 import datetime
 from tkinter import messagebox
+import requests
 
 n = 0
 
@@ -11,6 +12,13 @@ n = 0
 now = datetime.datetime.now()   
 dow = now.strftime('%A')
 now_time = now.hour*100 + now.minute
+# ライン通知関数
+def notify(message):
+    url = "https://notify-api.line.me/api/notify" 
+    token = "q6kAg06bJMGm5X5WjR5fJc9PCfFiZwxpQ7ENbE8Bobv"
+    headers = {"Authorization" : "Bearer "+ token} 
+    payload = {"message" :  message} 
+    r = requests.post(url, headers = headers, params=payload) 
 
 #現在が何時間目かを特定する関数
 def WhatNowClass(now_time):
@@ -46,4 +54,5 @@ if (n == 0) or (dow not in data):
     Error()
 else:
     webbrowser.open(data[str(dow)][str(n)]["url"])
+    notify(data[str(dow)][str(n)]["class"])
 
