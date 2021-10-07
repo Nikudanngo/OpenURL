@@ -2,111 +2,136 @@
     "Monday": {
         "1": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "2": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "3": {
             "name": "プログラミング演習Ⅳ",
-            "url": "https://stream.meet.google.com/stream/47bece09-71ee-4fbf-a434-e81f39932768"
+            "url": "https://stream.meet.google.com/stream/47bece09-71ee-4fbf-a434-e81f39932768",
+            "class": ""
         },
         "4": {
             "name": "基礎機械力学",
-            "url": "https://us02web.zoom.us/j/83854424097?pwd=OTA4S0hoQ2ZXZEhPYU9DRGR4eTZPQT09"
+            "url": "https://us02web.zoom.us/j/83854424097?pwd=OTA4S0hoQ2ZXZEhPYU9DRGR4eTZPQT09",
+            "class": ""
         },
         "5": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         }
     },
     "Tuesday": {
         "1": {
             "name": "機械CAD演習",
-            "url": "https://stream.meet.google.com/stream/92e8d1bb-fe2c-4959-9f65-05004c72ad7f"
+            "url": "https://stream.meet.google.com/stream/92e8d1bb-fe2c-4959-9f65-05004c72ad7f",
+            "class": ""
         },
         "2": {
             "name": "機械CAD演習",
-            "url": "https://stream.meet.google.com/stream/92e8d1bb-fe2c-4959-9f65-05004c72ad7f"
+            "url": "https://stream.meet.google.com/stream/92e8d1bb-fe2c-4959-9f65-05004c72ad7f",
+            "class": ""
         },
         "3": {
             "name": "ディジタル電子回路",
-            "url": "https://stream.meet.google.com/stream/1891a9ff-69e4-4abb-afb2-4cf0ccc20a56"
+            "url": "https://stream.meet.google.com/stream/1891a9ff-69e4-4abb-afb2-4cf0ccc20a56",
+            "class": ""
         },
         "4": {
             "name": "基礎機械力学",
-            "url": "https://us02web.zoom.us/j/83854424097?pwd=OTA4S0hoQ2ZXZEhPYU9DRGR4eTZPQT09"
+            "url": "https://us02web.zoom.us/j/83854424097?pwd=OTA4S0hoQ2ZXZEhPYU9DRGR4eTZPQT09",
+            "class": ""
         },
         "5": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         }
     },
     "Wednesday": {
         "1": {
             "name": "確率・統計学",
-            "url": "https://stream.meet.google.com/stream/3f08bbdc-1deb-4c6f-ae8d-e2d2d3a5feca"
+            "url": "https://stream.meet.google.com/stream/3f08bbdc-1deb-4c6f-ae8d-e2d2d3a5feca",
+            "class": ""
         },
         "2": {
             "name": "アカデミック・イングリッシュ",
-            "url": "https://meet.google.com/zev-nxwm-txe"
+            "url": "https://meet.google.com/zev-nxwm-txe",
+            "class": "セミナー室204"
         },
         "3": {
             "name": "ディジタル電子回路",
-            "url": "https://stream.meet.google.com/stream/1891a9ff-69e4-4abb-afb2-4cf0ccc20a56"
+            "url": "https://stream.meet.google.com/stream/1891a9ff-69e4-4abb-afb2-4cf0ccc20a56",
+            "class": ""
         },
         "4": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "5": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         }
     },
     "Thursday": {
         "1": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "2": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "3": {
             "name": "システム実験",
-            "url": ""
+            "url": "",
+            "class": "8階RDC"
         },
         "4": {
             "name": "システム実験",
-            "url": ""
+            "url": "",
+            "class": "8階RDC"
         },
         "5": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         }
     },
     "Friday": {
         "1": {
             "name": "確率・統計学",
-            "url": "https://stream.meet.google.com/stream/3f08bbdc-1deb-4c6f-ae8d-e2d2d3a5feca"
+            "url": "https://stream.meet.google.com/stream/3f08bbdc-1deb-4c6f-ae8d-e2d2d3a5feca",
+            "class": ""
         },
         "2": {
             "name": "美術史",
-            "url": "https://kyozai.oit.ac.jp/common/05_RD学部/01_共通教養科目/美術史〈Ａ1組・Ａ2組〉【前半】_松浦_金2"
+            "url": "https://kyozai.oit.ac.jp/common/05_RD学部/01_共通教養科目/美術史〈Ａ1組・Ａ2組〉【前半】_松浦_金2",
+            "class": ""
         },
         "3": {
             "name": "ベーシック・プレゼンテーション",
-            "url": "https://meet.google.com/lookup/fh62o4wycw?authuser=0&hs=179"
+            "url": "https://meet.google.com/lookup/fh62o4wycw?authuser=0&hs=179",
+            "class": ""
         },
         "4": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "5": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         }
     }
 }
