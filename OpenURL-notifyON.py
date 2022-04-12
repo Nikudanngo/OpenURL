@@ -1,7 +1,10 @@
 import json
-import webbrowser
+import requests
 import datetime
+import webbrowser
 from tkinter import messagebox
+from config import LINE_NOTIFY_TOKEN
+
 
 nowClass = 0
 
@@ -11,8 +14,20 @@ now = datetime.datetime.now()  # 現在の時間を取得
 dayOfWeek = now.strftime('%A')  # 曜日を取得
 now_time = now.hour*100 + now.minute  # 現在の時間を4桁の数字に変換
 
+# LINE通知関数
+
+
+def notify(message):
+    url = "https://notify-api.line.me/api/notify"
+    token = LINE_NOTIFY_TOKEN  # ここにLINE Notifyのトークンを入れる
+    headers = {"Authorization": "Bearer " + token}
+    payload = {"message":  message}
+    r = requests.post(url, headers=headers, params=payload)
+
 
 # 現在が何時間目かを特定する関数
+
+
 def WhatNowClass(now_time):
     if(now_time > 850 and now_time < 1050):
         return 1
@@ -49,8 +64,8 @@ nowClass = WhatNowClass(now_time)
 
 # 今が何時間目か，今日の曜日がjsonにあるか判定
 if (nowClass == 0) or (dayOfWeek not in data):
+    notify("授業が見つかりません")
     Error()
-    print("授業が見つかりません")
 else:
+    notify(data[str(dayOfWeek)][str(nowClass)]["class"])
     webbrowser.open(data[str(dayOfWeek)][str(nowClass)]["url"])
-    print(data[str(dayOfWeek)][str(nowClass)]["class"])

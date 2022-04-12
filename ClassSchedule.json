@@ -2,111 +2,136 @@
     "Monday": {
         "1": {
             "name": "test",
-            "url": "https://github.com/Nikudanngo/OpenURL"
+            "url": "https://github.com/Nikudanngo/OpenURL",
+            "class": "授業参加システム"
         },
         "2": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "3": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "4": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "5": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         }
     },
     "Tuesday": {
         "1": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "2": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "3": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "4": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "5": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         }
     },
     "Wednesday": {
         "1": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "2": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "3": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "4": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "5": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         }
     },
     "Thursday": {
         "1": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "2": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "3": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "4": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "5": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         }
     },
     "Friday": {
         "1": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "2": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "3": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "4": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         },
         "5": {
             "name": "",
-            "url": ""
+            "url": "",
+            "class": ""
         }
     }
 }
