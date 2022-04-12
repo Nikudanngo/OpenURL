@@ -36,3 +36,9 @@ def WhatNowClass(now_time):
 |    4      |    15:20   |  1510  | 
 
 _上記の方法で開始時間の数字を変更した場合，授業の終了時間と次の授業の開始時間がifの条件で重複しないようにして下さい．_
+
+## 使用したライブラリやAPI
+- requests
+- tkinter
+- notify-on
+- LINE Notify API
